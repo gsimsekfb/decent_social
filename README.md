@@ -6,7 +6,7 @@ Summary of work done:
 - Solana tools installed from scratch on Ubuntu 20.04, devnet configured, account created (all are documented in [section 2. Setup](README.md#2-setup) below)
 - [decent_social](program) Solana program (smart contract)   
 - [front_end](front_end) demo app. (client, utility and main.rs functions)
-- [Integration tests](front_end/src/integration_tests)
+- [Integration tests](front_end/src/integration_tests) (this fails in CI since will need to setup/configure Solana env. on Ubuntu CI)
 - [Unit tests](https://github.com/gsimsekfb/decent_social/blob/main/program/src/instruction.rs#L13)
 - [CI (Continuous Integration) tests](.github/workflows) (using [github actions](https://github.com/gsimsekfb/decent_social/actions))
 - `cargo clippy` used
